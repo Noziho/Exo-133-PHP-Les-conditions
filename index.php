@@ -4,44 +4,53 @@
 $a = 50;
 $b = 10;
 
-       >    {
+ if($a > $b) {
     echo "Hello World!";
 }
 
 //Deuxieme ligne
-    {
-    echo "<br><br>Hello World2";
+   if($a !== $b) {
+    echo "<br>"."<br>" . "Hello World2";
 }
 
 //Troisieme ligne
-($a==b) {
+if ($a== $b) {
     echo "<br><br>Oui";
 }
 
-{
+else{
     echo "<br><br>Non";
 }
 
 
 //Quatrieme ligne
 echo"<br><br>";
- ($a == $b) {
+ if($a == $b) {
     echo "1";
-}  ($a > $b) {
+} elseif ($a > $b) {
     echo "2";
 }
-{
+else{
     echo "3";
 }
 
 
 //Cinquieme ligne
+$color = "fefefe";
 echo"<br><br>";
 
- ($color) {
-    "red":
+ switch($color) {
+    case "red":
     echo "Hello";
-   "green":
+        break;
+
+   case "green":
     echo "Welcome";
+       break;
+
+     default:
+         echo "La valeur n'est nis égal a green nis égal a red";
+
 }
+
 
